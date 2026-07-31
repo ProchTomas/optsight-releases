@@ -1,0 +1,137 @@
+<!--
+  This file is the README for the PUBLIC releases repository (optsight-releases).
+  Copy it there as README.md — it is kept here so it stays version-controlled
+  alongside the app it describes. The app repo itself is private.
+-->
+
+<div align="center">
+
+# OptSight Desktop
+
+**Quant-grade portfolio tooling that runs entirely on your own machine.**
+
+Portfolio optimization · machine-learning signals · a local-AI co-pilot · guarded broker execution
+
+[Website](https://opt-sight.com) · [Legal & disclosures](https://opt-sight.com/#legal) · [Download](../../releases/latest)
+
+</div>
+
+---
+
+## What OptSight is
+
+OptSight is a desktop application for people who manage their own portfolios and want
+institutional-style tooling without handing their data to a web service. There is no
+account and no cloud: your holdings, models, chats and settings live in a local
+database on your computer, and every external connection uses credentials you supply
+and control.
+
+It is sold as a **one-time purchase**, not a subscription.
+
+## Capabilities
+
+| | |
+|---|---|
+| **Portfolio optimization** | Risk-parity by default, plus mean–variance and other objectives, on a shrinkage-estimated covariance. |
+| **Machine-learning signals** | Regime detection, sentiment and trend models, and a fundamentals ranker used as a buy / no-buy screen. |
+| **Local-AI co-pilot** | "Consult" chats with a model running locally via Ollama, grounded in your own portfolio. Web lookups are opt-in. |
+| **Broker integration** | Interactive Brokers (Client Portal Gateway), Trading 212, Binance and Kraken — review a proposed rebalance and place orders on your terms. |
+| **Performance analytics** | Realized returns, drawdowns, and benchmark regression (alpha / beta) on your actual trade history. |
+| **Opinion pooling** | Blend the optimizer's output with your own views and confidence into the final target weights. |
+| **Guarded auto-execute** | Optional, off by default. Paper-mode default, a mandatory paper-trading period, per-order size and value limits, a daily trade cap, market-hours-only, and a full run log. |
+
+## What OptSight is **not**
+
+Read this list before you buy — it is as important as the one above.
+
+- **It is not financial, investment, legal or tax advice.** Every output — optimizations,
+  valuations, rankings, signals, allocations — is informational. Investment decisions and
+  their consequences are yours.
+- **It is not a broker, exchange, custodian or investment adviser.** It never holds your
+  money or your assets. It sends instructions to *your* broker account, using *your*
+  credentials.
+- **It does not trade on its own.** Auto-execute is opt-in, disabled by default, and
+  guarded. With it off, nothing reaches a broker unless you press the button.
+- **It does not guarantee execution.** Fills, prices, latency, slippage, fees and broker
+  uptime are outside the software's control.
+- **It is not a data provider.** Market, news and fundamental data come from third parties
+  (Tiingo, Financial Modeling Prep, Alpha Vantage) under your own API keys, subject to
+  their terms and their accuracy.
+- **It does not predict the market.** No output is a forecast, a promise, or an
+  expectation of future performance. Past performance does not indicate future results.
+- **It is not a managed service.** There is no server doing work for you; the app runs on
+  your hardware, and heavy model work takes as long as your machine takes.
+
+## Requirements
+
+- Windows 10/11 (64-bit) or macOS (Apple Silicon or Intel)
+- ~2 GB free disk space
+- Your own API keys for the data providers and brokers you intend to use — most have free tiers
+- Optional: [Ollama](https://ollama.com) installed locally if you want the Consult co-pilot
+
+## Install
+
+1. Buy a licence at [opt-sight.com](https://opt-sight.com) — you receive a licence key by email.
+2. Download the installer for your platform from [Releases](../../releases/latest).
+3. Install, launch, accept the terms and paste your licence key to activate the device.
+
+One licence activates on two machines (for example a desktop and a laptop). Updates are
+delivered automatically from this repository.
+
+## Your data
+
+- No account, no sign-up, no cloud sync, **no analytics or usage telemetry**.
+- Portfolio data is never transmitted to the developer.
+- Outbound connections are limited to: licence activation and periodic validation (your
+  licence key and a device identifier, to Lemon Squeezy), update checks, data and broker
+  requests you configure with your own keys, and opt-in web lookups in Consult — which
+  send only your typed question, never your portfolio.
+
+---
+
+## Legal disclaimers
+
+*Summary below; the full and authoritative terms are at
+[opt-sight.com/#legal](https://opt-sight.com/#legal).*
+
+**Educational and informational use only.** OptSight is designed for educational and
+informational purposes only. Recommendations, valuations, optimisations, signals and
+portfolio allocations generated by the software do not constitute financial or investment
+advice, and are neither an offer nor a solicitation to buy or sell any instrument. You are
+solely responsible for your investment decisions.
+
+**No warranty; limitation of liability.** The software is provided "as is", without
+warranty of any kind, express or implied. Under no circumstances shall the developer be
+liable for direct, indirect, incidental or consequential financial losses, lost profits,
+trading losses, or data loss or corruption resulting from the use of — or inability to use
+— this software or its API integrations. Investing involves risk, including the possible
+loss of capital. **Past performance does not indicate future results.**
+
+**Third-party brokers, exchanges and data providers.** This application connects to
+external broker, exchange and market-data APIs. The developer is not responsible for API
+downtime, delayed or failed execution, incorrect or stale data, slippage, fees, rejected or
+duplicated orders, or security breaches occurring on third-party platforms. Verify every
+order in your broker's own interface.
+
+**Unmodified use only.** This software is licensed for use only in its original,
+unmodified form. Reverse engineering, decompilation, tampering with or circumventing
+licensing or security controls, and redistribution or resale of the software or of licence
+keys are strictly prohibited — except to the extent such restriction is prohibited by
+applicable mandatory law. The developer accepts **zero liability** for losses, erroneous
+API calls, unintended orders or unexpected behaviour resulting from unauthorised, cracked,
+patched or otherwise modified versions of the software, and provides no support for them.
+
+**Refunds.** All sales of digital licences are final and non-refundable once the licence
+key has been generated or accessed; at checkout you expressly consent to immediate delivery
+and acknowledge the loss of any applicable withdrawal or cooling-off period. This does not
+affect your statutory rights if the software is faulty or materially not as described.
+
+Nothing above limits liability that cannot lawfully be limited, or affects your mandatory
+statutory rights as a consumer.
+
+## Support
+
+Questions, defect reports and licence issues: **optsight@gmail.com**
+
+Governed by the laws of the Czech Republic.
+© 2026 OptSight. All rights reserved.
