@@ -33,7 +33,7 @@ It is sold as a **one-time purchase**, not a subscription.
 | | |
 |---|---|
 | **Portfolio optimization** | Risk-parity by default, plus mean–variance and other objectives, on a shrinkage-estimated covariance. |
-| **Machine-learning signals** | Regime detection, sentiment and trend models, and a fundamentals ranker used as a buy / no-buy screen. |
+| **Machine-learning models** | Regime detection, sentiment and trend models, and a fundamentals ranker used as a screener. |
 | **Local-AI co-pilot** | "Consult" chats with a model running locally via Ollama, grounded in your own portfolio. Web lookups are opt-in. |
 | **Broker integration** | Interactive Brokers (Client Portal Gateway), Trading 212, Binance and Kraken — review a proposed rebalance and place orders on your terms. |
 | **Performance analytics** | Realized returns, drawdowns, and benchmark regression (alpha / beta) on your actual trade history. |
@@ -45,7 +45,7 @@ It is sold as a **one-time purchase**, not a subscription.
 Read this list before you buy — it is as important as the one above.
 
 - **It is not financial, investment, legal or tax advice.** Every output — optimizations,
-  valuations, rankings, signals, allocations — is informational. Investment decisions and
+  valuations, statistics, rankings, allocations — is informational. Investment decisions and
   their consequences are yours.
 - **It is not a broker, exchange, custodian or investment adviser.** It never holds your
   money or your assets. It sends instructions to *your* broker account, using *your*
@@ -114,7 +114,7 @@ duplicated orders, or security breaches occurring on third-party platforms. Veri
 order in your broker's own interface.
 
 **Unmodified use only.** This software is licensed for use only in its original,
-unmodified form. Reverse engineering, decompilation, tampering with or circumventing
+unmodified form. Reverse engineering, disassembly, tampering with or circumventing
 licensing or security controls, and redistribution or resale of the software or of licence
 keys are strictly prohibited — except to the extent such restriction is prohibited by
 applicable mandatory law. The developer accepts **zero liability** for losses, erroneous
@@ -133,5 +133,6 @@ statutory rights as a consumer.
 
 Questions, defect reports and licence issues: **optsight@gmail.com**
 
-Governed by the laws of the Czech Republic.
+OptSight is developed and licensed by Tomáš Procházka, an individual resident in the Czech
+Republic. Governed by the laws of the Czech Republic.
 © 2026 OptSight. All rights reserved.
