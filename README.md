@@ -131,7 +131,7 @@ statutory rights as a consumer.
 
 ## Support
 
-Questions, defect reports and licence issues: **optsight@gmail.com**
+Questions, defect reports and licence issues: **contact@opt-sight.com**
 
 OptSight is developed and licensed by Tomáš Procházka, an individual resident in the Czech
 Republic. Governed by the laws of the Czech Republic.
