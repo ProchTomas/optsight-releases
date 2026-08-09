@@ -83,7 +83,7 @@ delivered automatically from this repository.
 - No account, no sign-up, no cloud sync, **no analytics or usage telemetry**.
 - Portfolio data is never transmitted to the developer.
 - Outbound connections are limited to: licence activation and periodic validation (your
-  licence key and a device identifier, to Lemon Squeezy), update checks, data and broker
+  licence key and a device identifier, to KeyGen (v1.6.2+), LemonSqueezy (1.6.0 **legacy**)), update checks, data and broker
   requests you configure with your own keys, and opt-in web lookups in Consult — which
   send only your typed question, never your portfolio.
 
